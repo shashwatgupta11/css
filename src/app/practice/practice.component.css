@@ -4,3 +4,12 @@ th{
 td{
     height: 100px;
 }
+table{
+}
+
+.dis-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
