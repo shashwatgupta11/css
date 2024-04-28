@@ -5,8 +5,8 @@ import { CommonModule } from '@angular/common';
   selector: 'app-practice',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './practice.component.html',
-  styleUrl: './practice.component.css'
+  templateUrl: './table.component.html',
+  styleUrl: './table.component.css'
 })
 export class PracticeComponent {
 

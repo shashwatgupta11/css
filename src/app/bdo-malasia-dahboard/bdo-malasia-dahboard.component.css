@@ -1,0 +1,25 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+.card{
+height: 80vh;
+width:60vh;
+background-color: yellow
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-title{
+  display: flex;
+  justify-content: center;
+  margin-top:7vh;
+  font-weight: 300;
+}
