@@ -1,12 +1,57 @@
 <div class="container">
   <div class="card">
     <div class="card-title">
-     <strong>Sign In</strong>
+      <strong>Sign In</strong>
     </div>
 
-    <div>
-      <label><strong>Mobile Number</strong></label>
-      <input type="text" id="textInput" placeholder="Enter your text">
+    <div class="card-body">
+      <div class="mt-4">
+        <label><strong>Mobile Number</strong></label>
+        <div><input class="mt-1 input-dimensions" style="text-indent: 8px;" type="text" id="textInput"></div>
+      </div>
+      <div class="mt-4 side-by-side-input">
+        <div>
+          <label><strong>Enter Receipt/Invoice Number</strong></label>
+          <div><input style="text-indent: 8px;" class="mt-1 input-dimensions" type="text" id="textInput"></div>
+        </div>
+        <div>
+          <label><strong>Enter Receipt/Invoice Number</strong></label>
+          <div><input style="text-indent: 8px;" type="text" class="mt-1 input-dimensions" id="textInput"></div>
+        </div>
+
+      </div>
+      <div class="mt-4">
+        <label><strong>Email Id For OTP</strong></label>
+        <div><input class="mt-1 input-dimensions" style="text-indent: 8px;" type="text" id="textInput"></div>
+      </div>
+      <div class="mt-4 side-by-side-input">
+        <div>
+          <label><strong>Captcha</strong></label>
+          <div><input style="text-indent: 8px;" class="mt-1 input-dimensions" type="text"></div>
+        </div>
+        <div class="align-vertically">
+          <div><input disabled="true" style="text-indent: 8px;" type="text" class="mt-1 input-dimensions"
+              id="textInput"></div>
+        </div>
+
+      </div>
+      <div class="mt-1">
+        <div><button style="background-color: red;width: 100%; height: 4vh; color: white; font-weight: bold;">Generate
+            OTP</button></div>
+      </div>
+      <div class="mt-4">
+        <label><strong>Enter OTP</strong></label>
+        <div><input class="mt-1 input-dimensions" style="text-indent: 8px;" type="text" id="textInput"></div>
+        <div class="mt-1">
+          <div><button class="btn-dimesnsion">Generate
+              OTP</button></div>
+        </div>
+      </div>
+
+      <div class="mt-1 btn">
+        <button class="btn-dimesnsion" style="width: 40%;">Resend OTP</button>
+        <button class="btn-dimesnsion" style="width: 40%;">Sign In</button>
+      </div>
     </div>
   </div>
 </div>
