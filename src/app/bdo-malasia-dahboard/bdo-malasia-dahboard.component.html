@@ -1,56 +1,55 @@
 <div class="container">
+  <div class="circle">
+    <span>KIDS</span>
+  </div>
   <div class="card">
-    <div class="card-title">
-      <strong>Sign In</strong>
+    <div class="form-group">
+      <label class="mb-10 label imp" for="">Mobile Number</label>
+      <input class="input-box" type="text">
     </div>
-
-    <div class="card-body">
-      <div class="mt-4">
-        <label><strong>Mobile Number</strong></label>
-        <div><input class="mt-1 input-dimensions" style="text-indent: 8px;" type="text" id="textInput"></div>
-      </div>
-      <div class="mt-4 side-by-side-input">
+    <div class="form-group">
+      <div class="two-inputs">
         <div>
-          <label><strong>Enter Receipt/Invoice Number</strong></label>
-          <div><input style="text-indent: 8px;" class="mt-1 input-dimensions" type="text" id="textInput"></div>
+          <label class="form-group label" for="">Enter Receipt/Invoice Number</label>
+          <input class="input-box" type="text">
         </div>
         <div>
-          <label><strong>Enter Receipt/Invoice Number</strong></label>
-          <div><input style="text-indent: 8px;" type="text" class="mt-1 input-dimensions" id="textInput"></div>
+          <label class="form-group label" for="">Enter Receipt/Invoice Date</label>
+          <input class="input-box" type="text">
         </div>
-
       </div>
-      <div class="mt-4">
-        <label><strong>Email Id For OTP</strong></label>
-        <div><input class="mt-1 input-dimensions" style="text-indent: 8px;" type="text" id="textInput"></div>
-      </div>
-      <div class="mt-4 side-by-side-input">
+    </div>
+    <div class="form-group">
+      <label class="mb-10 label" for="">Email Id For Otp</label>
+      <input class="input-box" type="text">
+    </div>
+    <div class="form-group">
+      <div class="two-inputs">
         <div>
-          <label><strong>Captcha</strong></label>
-          <div><input style="text-indent: 8px;" class="mt-1 input-dimensions" type="text"></div>
+          <label class="form-group label" for="">Captcha</label>
+          <input class="input-box" type="text">
         </div>
-        <div class="align-vertically">
-          <div><input disabled="true" style="text-indent: 8px;" type="text" class="mt-1 input-dimensions"
-              id="textInput"></div>
-        </div>
-
-      </div>
-      <div class="mt-1">
-        <div><button style="background-color: red;width: 100%; height: 4vh; color: white; font-weight: bold;">Generate
-            OTP</button></div>
-      </div>
-      <div class="mt-4">
-        <label><strong>Enter OTP</strong></label>
-        <div><input class="mt-1 input-dimensions" style="text-indent: 8px;" type="text" id="textInput"></div>
-        <div class="mt-1">
-          <div><button class="btn-dimesnsion">Generate
-              OTP</button></div>
+        <div>
+          <input disabled="true" class="input-box" type="text">
         </div>
       </div>
-
-      <div class="mt-1 btn">
-        <button class="btn-dimesnsion" style="width: 40%;">Resend OTP</button>
-        <button class="btn-dimesnsion" style="width: 40%;">Sign In</button>
+    </div>
+    <div class="form-group">
+      <button class="btn"><strong>Generate OTP</strong></button>
+    </div>
+    <div class="form-group">
+      <label class="mb-10 label" for="">Enter OTP</label>
+      <input class="input-box" type="text">
+    </div>
+    <div class="form-group">
+      <button class="btn"><strong>Verify OTP</strong></button>
+    </div>
+    <div class="two-inputs">
+      <div>
+        <button class="btn white-btn"><strong>Verify OTP</strong></button>
+      </div>
+      <div>
+        <button class="btn"><strong>Sign In</strong></button>
       </div>
     </div>
   </div>
