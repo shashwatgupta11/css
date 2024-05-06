@@ -10,7 +10,6 @@
 }
 
 .card {
-  margin: auto;
   position: relative;
   width: 500px;
   background-color: #00000080;
@@ -84,8 +83,9 @@
 }
 
 .parentCirlce{
-  /* padding: 50px; */
+  /* iske parent pe margin auto dia h to isko width dete hi wo beech me ajaega cirle */
   width:86%;
   position: absolute;
-  top:-32px
+  top:-32px;
+
 }
