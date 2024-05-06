@@ -10,6 +10,7 @@
 }
 
 .card {
+  margin: auto;
   position: relative;
   width: 500px;
   background-color: #00000080;
@@ -73,10 +74,18 @@
   height: 70px;
   border-radius: 50%;
   background-color: white;
-  position: absolute;
+  /* position: absolute; */
   top: 55px;
   z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+}
+
+.parentCirlce{
+  /* padding: 50px; */
+  width:86%;
+  position: absolute;
+  top:-32px
 }
