@@ -1,0 +1,13 @@
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.truncate-text {
+    max-height: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
