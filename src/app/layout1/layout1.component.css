@@ -11,3 +11,8 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+
+body{
+    background-color: black;
+}
