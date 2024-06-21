@@ -13,11 +13,28 @@
 }
 
 
-body{
+body {
     background-color: black;
 }
 
-.marginb-4
-{
-margin-bottom: 37px;
+.marginb-4 {
+    margin-bottom: 37px;
 }
+
+.wide {
+    width: 120rem;
+}
+
+.narrow {
+    width: 45rem;
+}
+
+td {
+    padding: 25px;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+
