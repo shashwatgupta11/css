@@ -37,4 +37,66 @@ td {
     width: 100% !important;
 }
 
+.center {
+    padding: 20px;
+    width: 80%;
+    margin: auto
+}
 
+
+
+/* Container of the custom checkbox */
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px; /* Adjust the spacing */
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px; /* Adjust the font size */
+  }
+  
+  /* Hide the default checkbox */
+  .custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Custom checkmark */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px; /* Adjust the checkmark size */
+    width: 24px; /* Adjust the checkmark size */
+    border: 2px solid red; /* Border color */
+  }
+  
+  /* Show the checkmark when checked */
+  .custom-checkbox input:checked ~ .checkmark {
+    background-color: red; /* Checked background color */
+  }
+  
+  /* Style the checkmark shape */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark shape when checked */
+  .custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Position and style the checkmark shape */
+  .custom-checkbox .checkmark:after {
+    left: 9px; /* Adjust the position */
+    top: 5px; /* Adjust the position */
+    width: 5px; /* Adjust the size */
+    height: 10px; /* Adjust the size */
+    border: solid white; /* Checkmark color */
+    border-width: 0 3px 3px 0; /* Checkmark shape */
+    transform: rotate(45deg); /* Rotate the checkmark */
+  }
+  
