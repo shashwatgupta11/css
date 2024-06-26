@@ -29,3 +29,28 @@
     width: 30px;
     text-align: center;
 }
+
+.side-panel {
+    width: 5%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.p-10 {
+    padding: 20px 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-5self {
+    margin-bottom: 5px;
+}
+
+.heading-primary{
+    font-weight: 400;
+    font-size: 15px;
+}
