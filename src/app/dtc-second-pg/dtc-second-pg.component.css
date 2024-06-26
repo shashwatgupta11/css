@@ -1,0 +1,70 @@
+.mr-10 {
+    margin-right: 20px;
+}
+
+.header {
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px #777;
+}
+
+.flex-prop {
+    justify-content: space-between;
+}
+
+
+.icon {
+    height: 34px;
+    width: 34px;
+    margin-right: 10px;
+}
+
+.icon-name {
+    background-color: maroon;
+    border-radius: 20%;
+    padding: 14px;
+    text-align: center;
+    color: white;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.side-panel {
+    width: 5%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.p-10 {
+    padding: 20px 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-5self {
+    margin-bottom: 5px;
+}
+
+.heading-primary {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.setting-icon {
+    height: 33px;
+    margin-left: 10px;
+}
+
+.toggle-icon {
+    height: 21px;
+    width: 45px;
+}
+
+.margin-r {
+    margin-right: 10px;
+}
