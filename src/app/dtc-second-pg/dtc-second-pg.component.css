@@ -68,3 +68,13 @@
 .margin-r {
     margin-right: 10px;
 }
+
+.card-title {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bx-shadow
+{
+    box-shadow: 1px 1px 10px #777;
+}

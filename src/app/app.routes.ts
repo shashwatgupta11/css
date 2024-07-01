@@ -8,6 +8,6 @@ import { DtcComponent } from './dtc/dtc.component';
 import { DtcSecondPgComponent } from './dtc-second-pg/dtc-second-pg.component';
 
 export const routes: Routes = [
-  { path: '', component: Layout1Component },
+  { path: '', component: DtcSecondPgComponent },
   { path: 'first', component: AppComponent },
 ];
