@@ -5,7 +5,7 @@
 }
 
 .container {
-  max-width: 90%;
+  max-width: 85%;
 }
 
 .bg-pad {
@@ -36,4 +36,12 @@
   color: white;
   text-align: center;
   position: relative
+}
+
+.learn-more::after {
+  content: '\2192'; /* Unicode for right arrow */
+  margin-left: 5px; /* Adjust spacing between text and arrow */
+}
+.learn-more{
+  position: relative;
 }
