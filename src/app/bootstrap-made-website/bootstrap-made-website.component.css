@@ -39,13 +39,21 @@
 }
 
 .learn-more::after {
-  content: '\2192'; /* Unicode for right arrow */
-  margin-left: 5px; /* Adjust spacing between text and arrow */
+  content: '\2192';
+  /* Unicode for right arrow */
+  margin-left: 5px;
+  /* Adjust spacing between text and arrow */
 }
-.learn-more{
+.learn-more {
   position: relative;
 }
 
+.dollar {
+  font-size: 40px;
+  color: blue;
+}
 
-
-
+.zero {
+  font-size: 50px;
+  color: blue;
+}
