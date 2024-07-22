@@ -7,8 +7,9 @@ import { Layout1Component } from './layout1/layout1.component';
 import { DtcComponent } from './dtc/dtc.component';
 import { DtcSecondPgComponent } from './dtc-second-pg/dtc-second-pg.component';
 import { BootstrapMadeWebsiteComponent } from './bootstrap-made-website/bootstrap-made-website.component';
+import { BootstrapMade2Component } from './bootstrap-made2/bootstrap-made2.component';
 
 export const routes: Routes = [
-  { path: '', component: BootstrapMadeWebsiteComponent },
+  { path: '', component: BootstrapMade2Component },
   { path: 'first', component: AppComponent },
 ];
