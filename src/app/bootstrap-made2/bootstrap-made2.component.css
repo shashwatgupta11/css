@@ -74,6 +74,10 @@
     color: color-mix(in srgb, #ffffff, transparent 50%);
 }
 
+.p-140 {
+    padding-bottom: 140px !important;
+}
+
 .w-100 {
     width: 100%;
 }
@@ -96,4 +100,25 @@
 .increase-input {
     border-radius: 0px !important;
     padding: 13px;
+}
+
+::placeholder {
+    color: #999;
+}
+
+
+.heading2 {
+    color: #001973;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.main-color {
+    background-color:
+        color-mix(in srgb, #212529, transparent 97%);
 }
