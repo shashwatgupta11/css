@@ -1,5 +1,11 @@
 .navPad {
-    padding: 60px 0px ;
+    padding: 60px 0px;
+}
+
+.background-img {
+    background-image: url('https://bootstrapmade.com/demo/templates/Logis/assets/img/page-title-bg.jpg');
+    position: relative;
+    height: 466px;
 }
 
 .container {
@@ -20,7 +26,6 @@
     margin: 0;
     color: rgba(255, 255, 255, 0.6);
     align-items: center;
-    
 }
 
 .custom-btn {
@@ -33,4 +38,62 @@
 
 .margin-40 {
     margin-bottom: 40px;
+}
+
+.margin-80 {
+    margin-bottom: 80px;
+}
+
+.margin-20 {
+    margin-bottom: 20px;
+}
+
+.pos-relative {
+    position: relative;
+    color: white;
+}
+
+.txt-align-c {
+    text-align: center;
+}
+
+.font-s {
+    font-size: 67px;
+}
+
+.m-20 {
+    margin-bottom: 20px;
+}
+
+.m-l-r {
+    margin-left: 19px;
+    margin-right: 10px;
+}
+
+.grey-col {
+    color: color-mix(in srgb, #ffffff, transparent 50%);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
+.subH {
+    font-weight: 600;
+    color: #001973;
+    letter-spacing: 1.3px;
+}
+
+.subHPrimary {
+    font-weight: 500;
+    letter-spacing: 1.3px;
+}
+
+.increase-input {
+    border-radius: 0px !important;
+    padding: 13px;
 }
