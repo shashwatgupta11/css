@@ -1,24 +1,45 @@
 <div class="background-img margin-80">
     <div style="background-color: black; opacity:0.6; position: absolute; width: 100%; height: 466px;"></div>
     <div class="navPad">
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container">
-                <a class="navbar-brand heading">Logis</a>
-                <form class="" role="search">
-                    <div class="align-li">
-                        <ul class="align-li">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Services</li>
-                            <li>Pricing</li>
-                            <li>Dropdown</li>
-                            <li>Contact</li>
-                        </ul>
-                        <button type="button" class="btn btn-primary custom-btn">Get A Quote</button>
-                    </div>
-                </form>
+              <a class="navbar-brand heading" href="#">Logis</a>
+              <button class="navbar-toggler color-w" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <button type="button" class="btn btn-primary align-btn">Get A Quote</button>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search"></form> -->
+              </div>
             </div>
-        </nav>
+          </nav>
     </div>
     <div class="margin-20">
         <h1 class="pos-relative txt-align-c font-s">Get a Quote</h1>
@@ -109,11 +130,11 @@
                 <div class="footer-link">Useful Links</div>
                 <div>
                     <ul class="ul-link">
-                        <li style="padding: 10px;">Home</li>
-                        <li style="padding: 10px;">About Us</li>
-                        <li style="padding: 10px;">Services</li>
-                        <li style="padding: 10px;">Terms Of Service</li>
-                        <li style="padding: 10px;">Privacy Policy</li>
+                        <li class="p-full-10">Home</li>
+                        <li class="p-full-10">About Us</li>
+                        <li class="p-full-10">Services</li>
+                        <li class="p-full-10">Terms Of Service</li>
+                        <li class="p-full-10">Privacy Policy</li>
                     </ul>
                 </div>
             </div>
@@ -122,27 +143,22 @@
                 <div class="services-link">Our Services</div>
                 <div>
                     <ul class="li-style">
-                        <li style="padding: 10px;">Home</li>
-                        <li style="padding: 10px;">About Us</li>
-                        <li style="padding: 10px;">Services</li>
-                        <li style="padding: 10px;">Terms Of Service</li>
-                        <li style="padding: 10px;">Privacy Policy</li>
+                        <li class="p-10">Home</li>
+                        <li class="p-10">About Us</li>
+                        <li class="p-10">Services</li>
+                        <li class="p-10">Terms Of Service</li>
+                        <li class="p-10">Privacy Policy</li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-md-3">
-                <div style="">Contact Us</div>
+                <div class="contactUsH">Contact Us</div>
                 <div>
-                    <ul class="contact-us">
-                        <li style="padding: 10px;">A108 Adam Street
-                        </li>
-                        <li style="padding: 10px;">New York, NY 535022</li>
-                        <li style="padding: 10px;margin-bottom: 1.5rem;">United States</li>
-                        <li style="padding: 10px;"><span style="font-weight: 800;">Phone:</span> +1 5589 55488 55</li>
-                        <li style="padding: 10px"><span style="font-weight: 800;">Email:</span> infoexample.com
-                        </li>
-                    </ul>
+                    <div class="color-white">A108 Adam Street</div>
+                    <div class="color-white">New York, NY 535022</div>
+                    <div class="color-white">+1 5589 55488 55</div>
+                    <div><span class="color-white">Email</span><span class="color-white">infoexample.com</span></div>
                 </div>
             </div>
         </div>
@@ -156,3 +172,16 @@
 
     </div>
 </div>
+
+
+
+
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
